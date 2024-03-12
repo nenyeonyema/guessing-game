@@ -1,0 +1,168 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    min-height: 100vh;
+}
+div.main {
+    background-color: rgb(3, 119, 182);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+    height: 100%;
+    margin: 20px auto;
+}
+div.build {
+    display: flex;
+    position: relative;
+    width: 75%;
+    height: 300px;
+}
+.line1 {
+    background-color: white;
+    position: absolute;
+    width: 10px;
+    height: 300px;
+}
+.line2 {
+    background-color: white;
+    position: absolute;
+    width: 10px;
+    height: 300px;
+    right: 0;
+}
+
+div.para1 {
+    margin-left: 50px;
+}
+h1.jss {
+    font-family: "Poppins";
+    color: white;
+    font-size: 36px;
+    line-height: 2.4;
+}
+div.game {
+    background-color: white;
+    width: 75%;
+    height: 280px;
+}
+div.thegame {
+    margin: 50px;
+}
+.para2, .para3 {
+    text-align: center;
+    font-family: "Poppins";
+    line-height: 2.0;
+    font-size: 15px;
+    font-weight: 500;
+}
+#number {
+    margin: 25px 0;
+    margin-left: 130px;
+    width: 80px;
+    height: 35px;
+}
+#check {
+    width: 90px;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(3, 119, 182);
+    color: white;
+    transition: background-color 0.15s, color 1.5s;
+}
+#check:hover {
+    background-color:rgba(3, 119, 182, 0.76) ;
+    color: black;
+}
+@media only screen and (min-width: 1024px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+    }
+    div.main {
+        background-color: rgb(3, 119, 182);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 95%;
+        height: 600px;
+        margin: 50px;
+        box-sizing: border-box;
+    }
+    div.build {
+        display: flex;
+        width: 30%;
+        height: 400px;
+    }
+    
+    .line1 {
+        display: flex;
+        background-color: white;
+        width: 10px;
+        height: 400px;
+    }
+    .line2 {
+        display: none;
+    }
+    div.para1 {
+        margin-left: 10px;
+    }
+    h1.jss {
+        font-family: "Poppins";
+        color: white;
+        font-size: 46px;
+        line-height: 3.0;
+    }
+    div.game {
+        background-color: white;
+        border-radius: 10px;
+        width: 30%;
+        height: 400px;
+    }
+    div.thegame {
+        margin: 70px;
+    }
+    .para2, .para3 {
+        text-align: center;
+        font-family: "Poppins";
+        line-height: 2.2;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    #number {
+        margin: 25px 0;
+        margin-left: 20px;
+        width: 80px;
+        height: 35px;
+    }
+    #check {
+        width: 90px;
+        height: 45px;
+        margin-left: 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        background-color: rgb(3, 119, 182);
+        color: white;
+        transition: background-color 0.15s;
+    }
+    #check:hover {
+        background-color:rgba(3, 119, 182, 0.76) ;
+    }
+    
+}
